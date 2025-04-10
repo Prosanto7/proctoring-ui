@@ -68,20 +68,21 @@ const Hero: React.FC = () => {
                   <div className="w-3 h-3 rounded-full bg-yellow-400"></div>
                   <div className="w-3 h-3 rounded-full bg-green-400"></div>
                 </div>
-                <div className="text-sm font-medium">Moodle Proctoring Pro</div>
+                <div className="text-sm font-medium"></div>
               </div>
               <div className="p-2">
-                <img 
+                {/* <img 
                   src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                   alt="Proctoring Demo"
                   className="rounded border border-gray-200 w-full"
-                />
+                /> */}
+                <iframe className="rounded border border-gray-200 w-full" width="560" height="315" src="https://www.youtube.com/embed/NcrE1OIj6_Q?si=bl9mXJaYJnuOSU8X" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
               <div className="px-6 py-4 bg-gray-50 border-t border-gray-100">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-2">
                     <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
-                    <span className="text-sm text-gray-600">Recording: Active</span>
+                    <span className="text-sm text-gray-600">Proctoring Pro: Active</span>
                   </div>
                   <div className="text-sm text-gray-500">
                     ID Verified: Student 1234

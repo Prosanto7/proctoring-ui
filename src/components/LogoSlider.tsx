@@ -56,7 +56,7 @@ const LogoSlider: React.FC = () => {
           className="text-center mb-10"
         >
           <h2 className="text-2xl md:text-3xl font-bold mb-2">
-            Trusted by Leading Educational Institutions
+            Trusted by Leading<span className="text-gradient"> Educational Institutions</span> 
           </h2>
           <p className="text-gray-600">
             Join hundreds of universities and colleges worldwide using our solutions

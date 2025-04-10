@@ -41,7 +41,7 @@ const Products = () => {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <img 
-                        src="/lovable-uploads/33550182-b74e-45a3-91f6-8b9ed1ae26d9.png" 
+                        src="/lovable-uploads/proctoring-pro-image.png" 
                         alt="Proctoring Pro Interface" 
                         className="rounded-lg shadow-md mb-4"
                       />

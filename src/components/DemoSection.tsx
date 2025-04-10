@@ -34,13 +34,14 @@ const DemoSection: React.FC = () => {
               <TabsContent value="student" className="bg-white rounded-b-lg overflow-hidden">
                 <div className="relative">
                   <img 
-                    src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                    // src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                    src = "/lovable-uploads/pexels-julia-m-cameron-4144295.jpg"
                     alt="Student Exam Interface" 
                     className="w-full h-auto"
                   />
                   <div className="absolute top-2 right-2 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-medium flex items-center">
                     <span className="animate-pulse mr-2 h-2 w-2 bg-white rounded-full"></span>
-                    Recording
+                    Proctoring Enabled
                   </div>
                   <div className="absolute bottom-0 left-0 right-0 bg-elearning-700/90 p-4 text-white">
                     <div className="flex justify-between items-center">
@@ -78,13 +79,14 @@ const DemoSection: React.FC = () => {
               <TabsContent value="admin" className="bg-white rounded-b-lg overflow-hidden">
                 <div className="relative">
                   <img 
-                    src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                    // src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                    src="/lovable-uploads/pexels-mart-production-7222860.jpg"
                     alt="Admin Dashboard Interface" 
                     className="w-full h-auto"
                   />
                   <div className="absolute top-2 right-2 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm font-medium flex items-center">
                     <span className="mr-2 h-2 w-2 bg-white rounded-full"></span>
-                    Admin View
+                    Monitoring
                   </div>
                   <div className="absolute bottom-0 left-0 right-0 bg-elearning-700/90 p-4 text-white">
                     <div className="flex justify-between items-center">

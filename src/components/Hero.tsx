@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
                   <div className="w-3 h-3 rounded-full bg-yellow-400"></div>
                   <div className="w-3 h-3 rounded-full bg-green-400"></div>
                 </div>
-                <div className="text-sm font-medium"></div>
+                {/* <div className="text-sm font-medium">Moodle Proctoring Pro</div> */}
               </div>
               <div className="p-2">
                 {/* <img 
@@ -76,7 +76,7 @@ const Hero: React.FC = () => {
                   alt="Proctoring Demo"
                   className="rounded border border-gray-200 w-full"
                 /> */}
-                <iframe className="rounded border border-gray-200 w-full" width="560" height="315" src="https://www.youtube.com/embed/NcrE1OIj6_Q?si=bl9mXJaYJnuOSU8X" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe className="rounded border border-gray-200 w-full" width="560" height="315" src="https://www.youtube.com/embed/NcrE1OIj6_Q?si=bl9mXJaYJnuOSU8X" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
               </div>
               <div className="px-6 py-4 bg-gray-50 border-t border-gray-100">
                 <div className="flex items-center justify-between">
@@ -94,7 +94,7 @@ const Hero: React.FC = () => {
               </div>
             </div>
             
-            <div className="absolute -bottom-4 -right-4 bg-elearning-600 text-white px-5 py-2 rounded-lg shadow-lg transform rotate-3">
+            <div className="absolute -top-4 -right-10 bg-red-500 text-white px-5 py-2 rounded-lg shadow-lg transform rotate-[.25rad]">
               <div className="text-sm font-medium">Suspicious activity detected!</div>
             </div>
           </div>

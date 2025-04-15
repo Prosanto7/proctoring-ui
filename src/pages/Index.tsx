@@ -17,6 +17,7 @@ import ScrollToTopButton from '../components/ScrollToTopButton';
 import LogoSlider from '../components/LogoSlider';
 import { useToast } from '@/hooks/use-toast';
 import HeroSeamlessIntegration from '@/components/HeroSeamlessIntegration';
+import HeroVideoTutorial from '@/components/HeroVideoTutorial';
 
 const Index = () => {
   const { toast } = useToast();

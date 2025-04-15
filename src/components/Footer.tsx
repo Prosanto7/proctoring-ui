@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div>
             <Link to="/" className="inline-block mb-4">
               <img 
-                src="/lovable-uploads/33550182-b74e-45a3-91f6-8b9ed1ae26d9.png" 
+                src="/lovable-uploads/logo.png" 
                 alt="eLearning23 Logo" 
                 className="h-10 brightness-200 contrast-75"
               />

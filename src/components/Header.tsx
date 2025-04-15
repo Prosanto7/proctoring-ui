@@ -22,9 +22,9 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <Link to="/" className="flex items-center">
           <img 
-            src="/lovable-uploads/33550182-b74e-45a3-91f6-8b9ed1ae26d9.png" 
+            src="/lovable-uploads/logo.png" 
             alt="eLearning23 Logo" 
-            className="h-10 md:h-12"
+            className="h-10 md:h-8"
           />
         </Link>
         

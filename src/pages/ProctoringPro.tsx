@@ -12,6 +12,7 @@ import PricingSection from '../components/PricingSection';
 import FAQSection from '../components/FAQSection';
 import CTASection from '../components/CTASection';
 import ScrollToTopButton from '../components/ScrollToTopButton';
+import HeroVideoTutorial from '@/components/HeroVideoTutorial';
 
 const ProctoringPro = () => {
   return (
@@ -20,7 +21,7 @@ const ProctoringPro = () => {
       
       <main className="flex-grow">
         <HeroAcademicIntegrity  />
-        <DemoSection />
+        <HeroVideoTutorial />
         <InteractiveHowItWorks />
         <ComparisonTable />
         <PricingSection />
